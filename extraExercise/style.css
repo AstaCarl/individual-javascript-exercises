@@ -1,0 +1,54 @@
+
+/* Style the list and items for better visual representation. */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(165, 160, 147);
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(76, 55, 47);
+    font-weight: semi-bold;
+    font-size: 36px;
+}
+
+select {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-color: transparent;
+    border-color: rgb(76, 55, 47);
+    border: 1,5px solid;
+    border-radius: 100px;
+    padding: 5px;
+    color: rgb(76, 55, 47);
+}
+
+ul {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(76, 55, 47);
+    background-color: rgb(224, 221, 213);
+    height: fit-content;
+    width: 200px;
+    border-radius: 8px;
+    padding-bottom: 15px;
+}
+
+li{
+    margin-bottom: 5px;
+    margin-left: 14px;
+}
+
+h3{
+    font-weight: 500;
+}

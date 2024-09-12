@@ -1,0 +1,46 @@
+
+.box {
+    background-color: rgb(128, 187, 219);
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-color: rgb(241, 240, 224);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(135, 173, 228);
+    position: fixed;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 1px solid rgb(41, 86, 232);
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: semi-bold;
+    font-size: 24px;
+}
+
+.messageContainer {
+    position: relative;
+    top: 10%;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: blue
+}
+
+.hidden {
+    display: none;
+}
+
+.display {
+    display: block;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ola-web-programming",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "class.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
