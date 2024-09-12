@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="guess.js" defer></script>
+    <style>
+        .correct {
+            color: green;
+        }
+        .incorrect {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Choose a number between 1 - 100</h1>
+    <form action="">
+    <label for="number">Write your number here </label>
+    <input type="number" name="number" max="100" min="1" id="user-guess">
+    <button type="submit">guess</button>
+</form>
+    <h1>The bot chose:</h1>
+    <div id="bot-guess"></div>
+    <div id="status"></div>
+</body>
+</html>
