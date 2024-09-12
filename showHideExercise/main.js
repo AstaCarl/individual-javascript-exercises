@@ -1,3 +1,4 @@
+//
 const btn = document.getElementById("btn");
 const hiddenMessage = document.getElementById("hiddenMessage");
 
